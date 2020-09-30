@@ -1,0 +1,8 @@
+.map {
+  grid-area: map;
+  overflow: scroll;
+  .containerId {
+    padding-left: 150px;
+    padding-top: 50px;
+  }
+}

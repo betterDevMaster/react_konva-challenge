@@ -1,0 +1,46 @@
+.info {
+  grid-area: info; 
+  padding: 20px;
+  &__activeLeg__wrapper {
+    border: 1px solid $blue;
+    padding: 50px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    &__form {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      input {
+        display: block;
+        margin-top: 20px;
+      }
+      select {
+        appearance: none;
+        margin-top: 1rem;
+        border: 1px solid black;
+        background-image: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png);
+        background-repeat: no-repeat;
+        background-position: 95% center;
+      }
+      .btn-submit {
+        display: block;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 100px;
+        border: 1px solid $blue;
+        color: $blue;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        transition: background-color .15s ease-out;
+          &:hover {
+            background: $warm-grey-three;
+            color: #fff;
+            transition: all .2s ease-in;
+          }
+      }
+    }
+  }
+}
